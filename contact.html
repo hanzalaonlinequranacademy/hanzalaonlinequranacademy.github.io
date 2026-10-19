@@ -5,107 +5,130 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact - Hanzala Online Quran Academy</title>
 <script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>body{font-family:'Plus Jakarta Sans',sans-serif;}</style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>body{font-family:'Inter',sans-serif;}</style>
 </head>
-<body class="bg-[#f6fdf7]">
+<body class="bg-[#fcfdf9]">
 
-<header class="bg-white shadow-sm sticky top-0 z-50">
-<div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
-<span class="font-semibold text-[#0a2e22] text-[13px]">Hanzala Online Quran Academy</span>
-<nav class="hidden md:flex gap-5 text-[11px]">
-<a href="index.html" class="text-gray-600">Home</a>
-<a href="about.html" class="text-gray-600">About</a>
-<a href="index.html#courses" class="text-gray-600">Courses</a>
-<a href="pricing.html" class="text-gray-600">Pricing</a>
-<a href="contact.html" class="text-[#0a2e22] font-semibold border-b-2 border-[#4daf37]">Contact</a>
-</nav>
-<a href="https://wa.me/923289979770" class="bg-[#0a5c36] text-white text-[11px] px-4 py-2 rounded-full">Free Trial</a>
-</div>
-</header>
-
-<div class="bg-[#0a5c36] text-white text-[10px] py-1.5 px-4 flex justify-between">
-<span>🌙 Online Quran Classes Worldwide</span>
+<!-- Top Bar -->
+<div class="bg-[#0a4a3a] text-white text-[9px] py-2 px-4 flex justify-between">
+<span>Online Quran Classes Worldwide</span>
 <span>WhatsApp: +92 328 9979770</span>
 </div>
 
-<section class="py-10 px-4">
-<div class="max-w-6xl mx-auto text-center">
-<p class="text-[10px] tracking-widest text-[#c9a227] font-semibold">FREE TRIAL</p>
-<h1 class="text-[26px] md:text-[30px] font-bold text-[#12372a] mt-1">Book Your Free Trial Class</h1>
-<p class="text-[11px] text-gray-500 mt-2">Complete the form and your request will be sent straight to our WhatsApp.</p>
+<!-- Header -->
+<header class="bg-white shadow-sm sticky top-0 z-40">
+<div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+<div class="flex items-center gap-2"><div class="w-8 h-8 bg-[#0a2e22] rounded flex items-center justify-center text-[#c5a15d] font-bold">H</div><span class="font-bold text-[#0a2e22] text-[12px]">Hanzala Online Quran Academy</span></div>
+<nav class="hidden md:flex gap-6 text-[11px] font-medium text-gray-600">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="courses.html">Courses</a>
+<a href="pricing.html">Pricing</a>
+<a href="contact.html" class="text-[#0a2e22] font-bold border-b-2 border-[#0a2e22]">Contact</a>
+</nav>
+<a href="contact.html" class="bg-[#0a5c3e] text-white px-5 py-2 rounded-full text-[11px]">Free Trial</a>
+</div>
+</header>
 
-<div class="grid md:grid-cols-2 gap-8 mt-8 text-left">
-<div class="bg-white rounded-2xl shadow-lg p-6 border">
-<h3 class="text-[15px] font-semibold text-[#12372a]">Admission Form</h3>
-<div class="mt-4 space-y-3">
-<input id="fName" placeholder="First Name" class="w-full border rounded-lg px-3 py-2.5 text-[11px]">
-<input id="lName" placeholder="Last Name" class="w-full border rounded-lg px-3 py-2.5 text-[11px]">
-<input id="wNumber" placeholder="WhatsApp Number (with country code)" class="w-full border rounded-lg px-3 py-2.5 text-[11px]">
-<input id="email" placeholder="Email Address" class="w-full border rounded-lg px-3 py-2.5 text-[11px]">
-<select id="country" class="w-full border rounded-lg px-3 py-2.5 text-[11px] bg-[#f5f5f5]">
-<option value="">Select Country</option>
-<option>Pakistan</option><option>USA</option><option>UK</option><option>Canada</option><option>Australia</option><option>UAE</option><option>Saudi Arabia</option><option>Other</option>
-</select>
-<select id="course" class="w-full border rounded-lg px-3 py-2.5 text-[11px] bg-[#f5f5f5]">
-<option value="">Select Course</option>
-<option>Noorani Qaida</option><option>Quran Reading</option><option>Hifz-ul-Quran</option><option>Tajweed Course</option><option>Islamic Studies</option>
-</select>
-<textarea id="message" placeholder="Preferred class timing or any message" rows="3" class="w-full border rounded-lg px-3 py-2.5 text-[11px]"></textarea>
-<button onclick="sendWhatsApp()" class="w-full bg-gradient-to-r from-[#0a7a4a] to-[#08291c] text-white text-[11px] font-semibold py-3 rounded-full">SEND VIA WHATSAPP</button>
-<p class="text-[10px] text-gray-400 mt-2">Your details open in WhatsApp — just tap Send to confirm.</p>
-</div>
-</div>
-
-<div class="space-y-6">
-<div class="bg-gradient-to-br from-[#0a5c36] to-[#08291c] rounded-2xl p-6 h-[260px] relative overflow-hidden flex items-center justify-center">
-<div class="absolute top-4 right-8 text-white text-5xl">☪️</div>
-<div class="bg-[#f8f0d8] rounded-lg p-4 w-[200px] rotate-3 shadow-xl mt-10">
-<div class="h-1 bg-[#c9a227] w-full mb-2"></div>
-<div class="space-y-1.5">
-<div class="h-[2px] bg-gray-300 w-full"></div><div class="h-[2px] bg-gray-300 w-full"></div><div class="h-[2px] bg-gray-300 w-3/4"></div>
-</div>
-</div>
-</div>
-<div>
-<h3 class="text-[16px] font-semibold text-[#12372a]">Let's Connect</h3>
-<ul class="mt-3 space-y-2 text-[11px]">
-<li>✓ WhatsApp: +92 328 9979770</li>
-<li>✓ Online classes worldwide</li>
-<li>✓ Reply within a few hours</li>
-<li>✓ Male & female tutors available</li>
-</ul>
-<div class="mt-4">
-<a href="https://wa.me/923289979770?text=Salam, I want to book a free trial" class="bg-[#0a5c36] text-white text-[11px] px-5 py-2.5 rounded-full">Chat on WhatsApp</a>
-</div>
-</div>
-</div>
+<!-- HERO -->
+<section class="bg-[#06291e] text-white py-16 px-6 relative overflow-hidden">
+<div class="max-w-7xl mx-auto">
+<p class="text-[9px] tracking-[0.25em] text-[#c5a15d] uppercase mb-2">FREE TRIAL CLASS</p>
+<h1 class="text-3xl font-bold mb-2">Begin Your Quran Journey</h1>
+<p class="text-[11px] text-white/50 mb-6">Tell us about your learning goals and arrange your free trial class.</p>
+<div class="flex gap-3">
+<a href="#admission" class="border border-white/20 text-white px-4 py-2 rounded-full text-[10px]">BOOK A FREE TRIAL</a>
+<a href="https://wa.me/923289979770" class="bg-[#c5a15d] text-black px-4 py-2 rounded-full text-[10px] font-semibold">CONTACT ON WHATSAPP</a>
 </div>
 </div>
 </section>
 
-<footer class="bg-[#08291c] text-white py-10 px-4 mt-10">
-<div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
-<div><h3 class="text-[12px]">Hanzala Online Quran Academy</h3><p class="text-[11px] opacity-60 mt-3">Learn Quran with qualified tutors through flexible one-to-one online classes.</p></div>
-<div><h4 class="text-[12px]">Quick Links</h4><ul class="mt-3 space-y-1 text-[11px] opacity-60"><li><a href="about.html">About Us</a></li><li><a href="index.html#courses">Courses</a></li><li><a href="pricing.html">Pricing</a></li></ul></div>
-<div><h4 class="text-[12px]">Contact</h4><p class="text-[11px] opacity-60 mt-3">WhatsApp: +92 328 9979770<br>Free Trial Available</p></div>
+<!-- Form Section -->
+<section id="admission" class="py-16 px-4 bg-[#f8faf7]">
+<div class="max-w-5xl mx-auto">
+<p class="text-[9px] tracking-[0.25em] text-[#c5a15d] uppercase mb-2 text-center">FREE TRIAL</p>
+<h2 class="text-2xl text-[#0a2e22] text-center mb-2">Book Your Free Trial Class</h2>
+<p class="text-[11px] text-gray-500 text-center mb-10">Complete the form and your request will be sent straight to our WhatsApp.</p>
+
+<div class="grid md:grid-cols-2 gap-8 items-start">
+
+<!-- Form -->
+<div class="bg-white rounded-2xl p-6 shadow-[0_10px_40px_rgba(0,0,0,0.07)] border border-gray-100">
+<h3 class="font-medium text-[#0a2e22] text-[14px] mb-4">Admission Form</h3>
+<div class="space-y-3">
+<input id="firstName" type="text" placeholder="First Name" class="w-full border border-gray-100 rounded-lg px-4 py-3 text-[11px] outline-none focus:border-[#0a5c3e] bg-[#fbfbfb]">
+<input id="lastName" type="text" placeholder="Last Name" class="w-full border border-gray-100 rounded-lg px-4 py-3 text-[11px] outline-none focus:border-[#0a5c3e] bg-[#fbfbfb]">
+<input id="waNumber" type="text" placeholder="WhatsApp Number (with country code)" class="w-full border border-gray-100 rounded-lg px-4 py-3 text-[11px] outline-none focus:border-[#0a5c3e] bg-[#fbfbfb]">
+<input id="email" type="email" placeholder="Email Address" class="w-full border border-gray-100 rounded-lg px-4 py-3 text-[11px] outline-none focus:border-[#0a5c3e] bg-[#fbfbfb]">
+<select id="country" class="w-full border border-gray-100 rounded-lg px-4 py-3 text-[11px] outline-none bg-[#f2f2f2]">
+<option>Select Country</option>
+<option>Pakistan</option><option>USA</option><option>UK</option><option>Canada</option><option>UAE</option><option>Saudi Arabia</option><option>Other</option>
+</select>
+<select id="course" class="w-full border border-gray-100 rounded-lg px-4 py-3 text-[11px] outline-none bg-[#f2f2f2]">
+<option>Select Course</option>
+<option>Noorani Qaida</option><option>Quran Reading</option><option>Tajweed</option><option>Hifz-ul-Quran</option><option>Islamic Studies</option><option>Translation & Tafseer</option>
+</select>
+<textarea id="message" placeholder="Preferred class timing or any message" rows="4" class="w-full border border-gray-100 rounded-lg px-4 py-3 text-[11px] outline-none bg-[#fbfbfb]"></textarea>
+<button onclick="sendToWhatsApp()" class="w-full bg-gradient-to-r from-[#0a5c3e] to-[#0a2e22] text-white py-3 rounded-full text-[11px] font-semibold mt-2">SEND VIA WHATSAPP</button>
+<p class="text-[9px] text-gray-400">Your details open in WhatsApp — just tap Send to confirm.</p>
 </div>
-<p class="text-center text-[10px] opacity-40 mt-8">© 2026 Hanzala Online Quran Academy.</p>
+</div>
+
+<!-- Right Side -->
+<div>
+<img src="https://images.unsplash.com/photo-1609599006353-e629aaabfeae?q=80&w=800" class="rounded-2xl w-full h-[280px] object-cover shadow-lg mb-6" alt="Quran">
+<div class="bg-white rounded-lg px-4 py-3 shadow-md inline-block mb-6">
+<p class="text-[11px] font-bold text-[#0a2e22]">Learn From Anywhere</p>
+<p class="text-[9px] text-gray-500">Online Quran education worldwide</p>
+</div>
+
+<h3 class="font-semibold text-[#0a2e22] mb-4">Let's Connect</h3>
+<ul class="text-[11px] space-y-3 text-gray-600">
+<li class="flex gap-2"><span class="text-[#c5a15d]">✔</span> WhatsApp: +92 328 9979770</li>
+<li class="flex gap-2"><span class="text-[#c5a15d]">✔</span> Online classes worldwide</li>
+<li class="flex gap-2"><span class="text-[#c5a15d]">✔</span> Reply within a few hours</li>
+<li class="flex gap-2"><span class="text-[#c5a15d]">✔</span> Male & female tutors available</li>
+</ul>
+<a href="https://wa.me/923289979770" class="inline-block mt-6 bg-[#0a4a3a] text-white px-5 py-2.5 rounded-full text-[11px]">Chat on WhatsApp</a>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-[#0a2e22] text-white py-10 px-6">
+<div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-[11px]">
+<div><div class="w-8 h-8 bg-white/10 rounded flex items-center justify-center text-[#c5a15d] font-bold mb-3">H</div><p class="font-bold mb-2">Hanzala Online Quran Academy</p><p class="opacity-60 text-[10px] leading-5">Learn Quran with qualified tutors through flexible one-to-one online classes.</p></div>
+<div><p class="font-semibold mb-3">Quick Links</p><div class="opacity-60 space-y-1.5 text-[10px]">
+<a href="index.html" class="block hover:text-white">Home</a>
+<a href="about.html" class="block hover:text-white">About Us</a>
+<a href="courses.html" class="block hover:text-white">Courses</a>
+<a href="pricing.html" class="block hover:text-white">Pricing</a>
+<a href="contact.html" class="block hover:text-white">Contact</a>
+</div></div>
+<div><p class="font-semibold mb-3">Contact</p><p class="opacity-60 text-[10px] leading-5">WhatsApp: +92 328 9979770<br>Free Trial Available<br>24/7 Support</p></div>
+</div>
+<div class="max-w-6xl mx-auto mt-8 pt-6 border-t border-white/10 text-center text-[9px] opacity-40">© 2026 Hanzala Online Quran Academy. All rights reserved.</div>
 </footer>
 
+<!-- BIG WHATSAPP BUTTON -->
+<a href="https://wa.me/923289979770?text=AssalamuAlaikum%20Hanzala%20Online%20Quran%20Academy" class="fixed bottom-8 right-8 bg-[#25D366] w-28 h-28 md:w-36 md:h-36 rounded-full flex items-center justify-center text-white text-[36px] md:text-[44px] font-bold shadow-[0_8px_30px_rgba(0,0,0,0.3)] z-50 hover:scale-110 transition">WA</a>
+
 <script>
-function sendWhatsApp(){
-const fName=document.getElementById('fName').value;
-const lName=document.getElementById('lName').value;
-const wNumber=document.getElementById('wNumber').value;
-const email=document.getElementById('email').value;
-const country=document.getElementById('country').value;
-const course=document.getElementById('course').value;
-const message=document.getElementById('message').value;
-if(!fName||!wNumber){alert('Please fill First Name and WhatsApp Number');return;}
-let text=`*New Admission - Hanzala Online Quran Academy*%0A%0A*Name:* ${fName} ${lName}%0A*WhatsApp:* ${wNumber}%0A*Email:* ${email}%0A*Country:* ${country}%0A*Course:* ${course}%0A*Message:* ${message}`;
-window.open(`https://wa.me/923289979770?text=${text}`,'_blank');
+function sendToWhatsApp(){
+var f=document.getElementById('firstName').value;
+var l=document.getElementById('lastName').value;
+var w=document.getElementById('waNumber').value;
+var e=document.getElementById('email').value;
+var c=document.getElementById('country').value;
+var co=document.getElementById('course').value;
+var m=document.getElementById('message').value;
+var text="AssalamuAlaikum%0A%0A*New Admission - Hanzala Online Quran Academy*%0A%0A*Name:* "+f+" "+l+"%0A*WhatsApp:* "+w+"%0A*Email:* "+e+"%0A*Country:* "+c+"%0A*Course:* "+co+"%0A*Message:* "+m;
+window.open("https://wa.me/923289979770?text="+text,"_blank");
 }
 </script>
+
 </body>
   </html>
